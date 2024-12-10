@@ -1,0 +1,51 @@
+/* Estilo básico para o site */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000; /* Fundo preto para a página */
+}
+
+.container {
+    text-align: center;
+    background-color: #000000; /* Fundo preto para a caixa */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    color: white; /* Cor do texto da caixa é branca */
+}
+
+h1 {
+    font-size: 24px;
+    color: white; /* Cor do título (h1) é branca */
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff; /* Borda branca para o campo de entrada */
+    border-radius: 4px;
+    background-color: #333; /* Fundo mais escuro para o campo de entrada */
+    color: white; /* Cor do texto na caixa de entrada é branca */
+}
+
+input[type="text"]::placeholder {
+    color: #aaa; /* Cor do placeholder em cinza claro */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-container img {
+    width: 50px;
+    height: 50px;
+}
